@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Dev (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173/",
+      "preLaunchTask": "dev",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Dev (Edge)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5173/",
+      "preLaunchTask": "dev",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
